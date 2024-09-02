@@ -1,0 +1,76 @@
+for .txt viewmdel_offset_ads
+temp_hcog_r2
+y
+50.2664
+
+cqh=
+-.42
+
+hcog_r1=
+-.648
+
+For $attachments
+
+hcog_r1 front
+x
+0
+y
+50.1644
+z
+17.4611
+hcog_r1 rear
+x
+0
+y
+50.1644
+z
+17.4533	
+cqh front
+x
+0
+y
+49.9364
+z
+17.0777
+cqh rear
+x
+0
+y
+49.9364
+z
+17.0687
+
+
+Def bone (def_c_cqh)
+x
+0
+y
+48.6546
+z
+15.8535
+
+
+hcog_r1
+y
+1.5098
+z
+1.6076
+rear
+z
+1.5998
+cqh
+y
+1.2818
+z
+1.2242
+rear
+z
+1.2152
+
+
+$Attachment "CQH_FRONT" "def_c_cqh" 0 1.2818 1.2242 rotate -90 -90 0
+$Attachment "CQH_REAR" "def_c_cqh" 0 1.2818 1.2152 rotate -90 -90 0
+$Attachment "HCOG_R1_FRONT" "def_c_hcog" 0 1.5098 1.6076 rotate -90 -90 0
+$Attachment "HCOG_R1_REAR" "def_c_hcog" 0 1.5098 1.5998 rotate -90 -90 0
+
+

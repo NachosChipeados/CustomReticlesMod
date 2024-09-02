@@ -1,0 +1,26 @@
+Preset 
+70_fov 	2.01
+80_fov	1.75
+86_fov  1.588
+90_fov	1.5
+96_fov[iniquity] 1.33
+100_fov	1.255
+106_fov 1.155
+110_fov	1.058
+max_fov[cl_fovscale 1.7] 0.89
+
+70_fov
+CRM.hcog2_offset_scalarX 2.01 
+CRM.hcog2_offset_scalarY 2.01 
+CRM.acgs_offset_scalarX 2.01 
+CRM.acgs_offset_scalarY 2.01 
+CRM.aog_r1_offset_scalarX 2.01 
+CRM.aog_r1_offset_scalarY 2.01 
+CRM.aog_r2_offset_scalarX 2.01 
+CRM.aog_r2_offset_scalarY 2.01 
+CRM.cro_offset_scalarX 2.01 
+CRM.cro_offset_scalarY 2.01 
+CRM.holo_r2_offset_scalarX 2.01 
+CRM.holo_r2_offset_scalarY 2.01
+
+

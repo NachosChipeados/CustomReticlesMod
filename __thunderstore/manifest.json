@@ -1,0 +1,7 @@
+{
+    "name": "Customisable_Reticles_Framework",
+    "version_number":"1.3.9",
+    "website_url": "https://github.com/CozyMerc/CustomReticlesMod",
+    "description": "Framework for vmt based reticles with sway and recoil correction",
+    "dependencies": [ "northstar-Northstar-1.18.0" ]
+}

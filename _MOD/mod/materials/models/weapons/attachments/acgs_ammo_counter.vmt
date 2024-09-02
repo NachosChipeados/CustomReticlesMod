@@ -1,0 +1,42 @@
+"Basic"
+{
+	"$surfaceprop" "glass"
+
+	"$basetexture" "models\weapons\attachments\ammo_counter_meter_col"
+	"$selfillummask" "models\weapons\attachments\ammo_counter_meter_ilm"
+	"$translucent" "1"
+	//"$selfillum" "1"
+	"$decal" 1
+	"$decalscale" 0.25
+
+	"$alpha"	".65"
+	"$color"	"1 1 1"
+	"$color2"	"2 2 2.2"
+
+	"$allowoverbright" 		"1"
+	"$allowdiffusemodulation"	"1"
+	
+	"$valuezero"	"0"
+	"$valueten"		"1000"
+
+	"$ammofrac" "0.0"
+
+	"Proxies"
+	{
+		"ClipAmmoFraction"
+		{
+			"resultVar" "$ammofrac"
+		}
+
+		"ProgressBarWithFrac"
+		{
+			"fraction"		"$ammofrac"
+			"resultVar"		"$basetexturetransform"
+		}
+
+		"ClipAmmoColor"
+		{
+			"resultVar"			"$color"
+		}
+	}
+}
